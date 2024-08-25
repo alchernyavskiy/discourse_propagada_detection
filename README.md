@@ -10,10 +10,13 @@ This repo contains code for the paper: [Unleashing the Power of Discourse-Enhanc
 
 Main code in folders:
 1) ```dataset_construction.py``` - SemEval-based dataset preparation. Adds linguistic features as inputs.
-2) ```modeling_...py``` - model arhitecture modification (see Fig. ![Arhitecture](./arhitecture.png)). The main idea is the concatenation of linguistic features and Transformer-based embeddings.
+2) ```modeling_...py``` - model arhitecture modification (see Fig. Architecture). The main idea is the concatenation of linguistic features and Transformer-based embeddings.
 3) ```...configuration...py``` - extended model configuration using new params (e.g. *extra_feature_size*)
 4) ```run_...py``` - run training cycle for the modified architecture with possible class weights in the loss function.
 5) ```inference.py``` - inference of the trained model
+
+
+![Architecture](https://github.com/alchernyavskiy/discourse_propagada_detection/blob/main/architecture.png?raw=true)
 
 
 ***Data***: 
