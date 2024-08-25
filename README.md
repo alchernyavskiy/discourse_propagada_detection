@@ -2,7 +2,7 @@
 
 This repo contains code for the paper: [Unleashing the Power of Discourse-Enhanced Transformers for Propaganda Detection](https://aclanthology.org/2024.eacl-long.87/)
 
-***Repo Structure***:
+### Code structure: 
 1) ```Discourse Analysis.ipynb``` contains data preparation, including feature construction, and analysis of correlation between discourse and propaganda classes.
 2) ```Deberta Token Classification.ipynb``` presents steps for the span classification task (paragraph classification) for the DeBERTa model: data preparation; model training; inference and error analysis. Relevant code is placed in ```glue_deberta```.
 3) ```Deberta Token Classification.ipynb``` presents steps for the token classification task (NER) for the DeBERTa model. Relevant code is placed in ```ner_deberta_multi```
@@ -19,10 +19,12 @@ Main code in folders:
 ![Architecture](https://github.com/alchernyavskiy/discourse_propagada_detection/blob/main/architecture.png?raw=true)
 
 
-***Data***: 
+### Data: 
 Data can be downloaded from the official competition website: [SemEval2023 Task3](https://propaganda.math.unipd.it/semeval2023task3/)
 ```full_parsed_result_train_matched.pkl``` contains an example of dataset_construction stage output.
 
+
+### Citation
 If you find this repository helpful, feel free to cite our publication:
 ```
 @inproceedings{chernyavskiy-etal-2024-unleashing,
